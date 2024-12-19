@@ -1,0 +1,45 @@
+# **BCM Dashboard for Monitoring & Analyzing**
+
+1.  How to use the dashboard
+
+    1.  Open *BCM_server.R*
+
+    2.  Click **Run App**
+
+    3.  The interface will appear, click the **Open In Browser** if want more comfortable experience
+
+        1.  ![](images/clipboard-2786660394.png)
+
+    4.  Enter the Token API from moda:
+
+        1.  Signing to MoDA-\>Setting-\>API Token
+
+    5.  Click **Enter Dataset** to enter
+
+    6.  Click **Refresh** after select the dataset start/end time
+
+        1.  Click **Enter Dataset** also works, but takes longer time
+
+2.  What if the Dashboard not working:
+
+    1.  sometimes if the computer restart, the dashboard will close itself
+
+    2.  First try refresh the page in browser
+
+    3.  If not working, or the tab is closed, click the small red **STOP sign** on top of console
+
+        1.  ![](images/clipboard-325279666.png)
+
+    4.  if it close while using it:
+
+        1.  Maybe variable name is changed, we need to change the code for it
+
+        2.  Maybe there is no submitted file in the selected period
+
+        3.  If it is still solved, try see if there is more changed variables, or form_id changed
+
+3.  What if the dashboard takes too long to start
+
+    1.  Currently have no solutions, but the first time run the dashboard after restart R Studio will takes longer time to compile all the codes.
+
+    2.  
